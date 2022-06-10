@@ -1,0 +1,85 @@
+{
+  "name": "sb-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "core-js": "^3.6.5",
+    "vue": "^3.2.36",
+    "vue-router": "^4.0.13",
+    "vue-ui-preloader": "^1.2.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.4",
+    "@vue/cli-plugin-eslint": "^5.0.4",
+    "@vue/cli-service": "^4.5.17",
+    "@vue/compiler-sfc": "^3.2.37",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.1.0",
+    "node-sass": "^4.12.0",
+    "prettier": "2.4.1",
+    "sass-loader": "^8.0.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/no-async-in-computed-properties": "off",
+      "vue/no-dupe-keys": "off",
+      "vue/no-duplicate-attributes": "off",
+      "vue/no-parsing-error": "off",
+      "vue/no-reserved-keys": "off",
+      "vue/no-shared-component-data": "off",
+      "vue/no-side-effects-in-computed-properties": "off",
+      "vue/no-template-key": "off",
+      "vue/no-textarea-mustache": "off",
+      "vue/no-unused-components": "off",
+      "vue/no-unused-vars": "off",
+      "vue/no-use-v-if-with-v-for": "off",
+      "vue/require-component-is": "off",
+      "vue/require-prop-type-constructor": "off",
+      "vue/require-render-return": "off",
+      "vue/require-v-for-key": "off",
+      "vue/require-valid-default-prop": "off",
+      "vue/return-in-computed-property": "off",
+      "vue/use-v-on-exact": "off",
+      "vue/valid-template-root": "off",
+      "vue/valid-v-bind": "off",
+      "vue/valid-v-cloak": "off",
+      "vue/valid-v-else-if": "off",
+      "vue/valid-v-else": "off",
+      "vue/valid-v-for": "off",
+      "vue/valid-v-html": "off",
+      "vue/valid-v-if": "off",
+      "vue/valid-v-model": "off",
+      "vue/valid-v-on": "off",
+      "vue/valid-v-once": "off",
+      "vue/valid-v-pre": "off",
+      "vue/valid-v-show": "off",
+      "vue/valid-v-text": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
